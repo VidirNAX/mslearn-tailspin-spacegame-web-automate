@@ -29,8 +29,8 @@ variable "app_service_name_prefix" {
 }
 
 resource "random_integer" "app_service_name_suffix" {
-  min = 290777
-  max = 290777
+  min = 290000
+  max = 290999
 }
 
 resource "azurerm_resource_group" "spacegame" {
